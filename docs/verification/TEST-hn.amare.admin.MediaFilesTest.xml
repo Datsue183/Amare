@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hn.amare.admin.MediaFilesTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-01T00:45:35" hostname="3cd589477424" time="6.189">
+  <properties/>
+  <testcase name="cameraExifOrientationIsApplied[26]" classname="hn.amare.admin.MediaFilesTest" time="2.787"/>
+  <testcase name="cameraExifOrientationIsApplied" classname="hn.amare.admin.MediaFilesTest" time="3.176"/>
+  <testcase name="corruptImageIsRejected[26]" classname="hn.amare.admin.MediaFilesTest" time="0.017"/>
+  <testcase name="corruptImageIsRejected" classname="hn.amare.admin.MediaFilesTest" time="0.018"/>
+  <testcase name="largePhotosAreResizedForLowMemoryDevices[26]" classname="hn.amare.admin.MediaFilesTest" time="0.063"/>
+  <testcase name="largePhotosAreResizedForLowMemoryDevices" classname="hn.amare.admin.MediaFilesTest" time="0.083"/>
+  <testcase name="importedPhotoIsPrivateAndSurvivesSourceDeletion[26]" classname="hn.amare.admin.MediaFilesTest" time="0.019"/>
+  <testcase name="importedPhotoIsPrivateAndSurvivesSourceDeletion" classname="hn.amare.admin.MediaFilesTest" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

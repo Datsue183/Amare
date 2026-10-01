@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hn.amare.admin.LocalStoreTest" tests="50" skipped="0" failures="0" errors="0" timestamp="2026-10-01T00:45:21" hostname="3cd589477424" time="9.977">
+  <properties/>
+  <testcase name="jsonRoundTripPreservesAllRecords[26]" classname="hn.amare.admin.LocalStoreTest" time="4.134"/>
+  <testcase name="jsonRoundTripPreservesAllRecords" classname="hn.amare.admin.LocalStoreTest" time="3.801"/>
+  <testcase name="rejectsDepositAboveTotal[26]" classname="hn.amare.admin.LocalStoreTest" time="0.056"/>
+  <testcase name="rejectsDepositAboveTotal" classname="hn.amare.admin.LocalStoreTest" time="0.037"/>
+  <testcase name="paymentValidationAndDeliveredReceivable[26]" classname="hn.amare.admin.LocalStoreTest" time="0.063"/>
+  <testcase name="paymentValidationAndDeliveredReceivable" classname="hn.amare.admin.LocalStoreTest" time="0.046"/>
+  <testcase name="backupZipIncludesPhotosAndRestores[26]" classname="hn.amare.admin.LocalStoreTest" time="0.219"/>
+  <testcase name="backupZipIncludesPhotosAndRestores" classname="hn.amare.admin.LocalStoreTest" time="0.073"/>
+  <testcase name="databaseSurvivesReopening[26]" classname="hn.amare.admin.LocalStoreTest" time="0.032"/>
+  <testcase name="databaseSurvivesReopening" classname="hn.amare.admin.LocalStoreTest" time="0.044"/>
+  <testcase name="rejectsOversellingAndRollsBack[26]" classname="hn.amare.admin.LocalStoreTest" time="0.03"/>
+  <testcase name="rejectsOversellingAndRollsBack" classname="hn.amare.admin.LocalStoreTest" time="0.042"/>
+  <testcase name="missingBackupPhotoPreservesCurrentRecords[26]" classname="hn.amare.admin.LocalStoreTest" time="0.031"/>
+  <testcase name="missingBackupPhotoPreservesCurrentRecords" classname="hn.amare.admin.LocalStoreTest" time="0.052"/>
+  <testcase name="catalogEditsDoNotChangeExistingOrderPrice[26]" classname="hn.amare.admin.LocalStoreTest" time="0.047"/>
+  <testcase name="catalogEditsDoNotChangeExistingOrderPrice" classname="hn.amare.admin.LocalStoreTest" time="0.074"/>
+  <testcase name="skuIsUniqueAndArchivedProductPreservesHistory[26]" classname="hn.amare.admin.LocalStoreTest" time="0.055"/>
+  <testcase name="skuIsUniqueAndArchivedProductPreservesHistory" classname="hn.amare.admin.LocalStoreTest" time="0.048"/>
+  <testcase name="stockAdjustmentRespectsReservations[26]" classname="hn.amare.admin.LocalStoreTest" time="0.043"/>
+  <testcase name="stockAdjustmentRespectsReservations" classname="hn.amare.admin.LocalStoreTest" time="0.042"/>
+  <testcase name="cancelRequiresActualRefundConfirmation[26]" classname="hn.amare.admin.LocalStoreTest" time="0.04"/>
+  <testcase name="cancelRequiresActualRefundConfirmation" classname="hn.amare.admin.LocalStoreTest" time="0.049"/>
+  <testcase name="receivingPurchaseUpdatesWeightedCostAndCannotRepeat[26]" classname="hn.amare.admin.LocalStoreTest" time="0.034"/>
+  <testcase name="receivingPurchaseUpdatesWeightedCostAndCannotRepeat" classname="hn.amare.admin.LocalStoreTest" time="0.032"/>
+  <testcase name="deliveredSaleCannotBeCancelledAsUnfulfilledOrder[26]" classname="hn.amare.admin.LocalStoreTest" time="0.029"/>
+  <testcase name="deliveredSaleCannotBeCancelledAsUnfulfilledOrder" classname="hn.amare.admin.LocalStoreTest" time="0.03"/>
+  <testcase name="failedPreorderReservationIsAtomic[26]" classname="hn.amare.admin.LocalStoreTest" time="0.029"/>
+  <testcase name="failedPreorderReservationIsAtomic" classname="hn.amare.admin.LocalStoreTest" time="0.034"/>
+  <testcase name="unknownBackupColumnsAreRejected[26]" classname="hn.amare.admin.LocalStoreTest" time="0.041"/>
+  <testcase name="unknownBackupColumnsAreRejected" classname="hn.amare.admin.LocalStoreTest" time="0.033"/>
+  <testcase name="duplicateProductLinesAreAggregatedForAvailability[26]" classname="hn.amare.admin.LocalStoreTest" time="0.032"/>
+  <testcase name="duplicateProductLinesAreAggregatedForAvailability" classname="hn.amare.admin.LocalStoreTest" time="0.036"/>
+  <testcase name="deliveredCostIsCapturedAtDelivery[26]" classname="hn.amare.admin.LocalStoreTest" time="0.037"/>
+  <testcase name="deliveredCostIsCapturedAtDelivery" classname="hn.amare.admin.LocalStoreTest" time="0.032"/>
+  <testcase name="preordersRequireReceiptAndReservation[26]" classname="hn.amare.admin.LocalStoreTest" time="0.042"/>
+  <testcase name="preordersRequireReceiptAndReservation" classname="hn.amare.admin.LocalStoreTest" time="0.033"/>
+  <testcase name="cancelledOrderDoesNotAcceptPayments[26]" classname="hn.amare.admin.LocalStoreTest" time="0.029"/>
+  <testcase name="cancelledOrderDoesNotAcceptPayments" classname="hn.amare.admin.LocalStoreTest" time="0.028"/>
+  <testcase name="phoneNormalization[26]" classname="hn.amare.admin.LocalStoreTest" time="0.048"/>
+  <testcase name="phoneNormalization" classname="hn.amare.admin.LocalStoreTest" time="0.02"/>
+  <testcase name="deliveryDeductsOnceAndRemovesReservation[26]" classname="hn.amare.admin.LocalStoreTest" time="0.039"/>
+  <testcase name="deliveryDeductsOnceAndRemovesReservation" classname="hn.amare.admin.LocalStoreTest" time="0.031"/>
+  <testcase name="invalidRestoreRollsBackCurrentData[26]" classname="hn.amare.admin.LocalStoreTest" time="0.041"/>
+  <testcase name="invalidRestoreRollsBackCurrentData" classname="hn.amare.admin.LocalStoreTest" time="0.03"/>
+  <testcase name="reservationDoesNotReducePhysicalStock[26]" classname="hn.amare.admin.LocalStoreTest" time="0.02"/>
+  <testcase name="reservationDoesNotReducePhysicalStock" classname="hn.amare.admin.LocalStoreTest" time="0.03"/>
+  <testcase name="zipTraversalCannotOverwriteData[26]" classname="hn.amare.admin.LocalStoreTest" time="0.036"/>
+  <testcase name="zipTraversalCannotOverwriteData" classname="hn.amare.admin.LocalStoreTest" time="0.031"/>
+  <testcase name="deliveryWithDuplicateLinesKeepsOtherReservations[26]" classname="hn.amare.admin.LocalStoreTest" time="0.022"/>
+  <testcase name="deliveryWithDuplicateLinesKeepsOtherReservations" classname="hn.amare.admin.LocalStoreTest" time="0.034"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

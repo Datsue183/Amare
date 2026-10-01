@@ -1,0 +1,28 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'hn.amare.admin'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'hn.amare.admin'
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName '0.1.0-beta'
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    testOptions { unitTests.includeAndroidResources = true }
+    lint { abortOnError true; checkReleaseBuilds true }
+}
+tasks.withType(Test).configureEach {
+    maxHeapSize = '1g'
+    // Pass through developer proxy settings only when explicitly configured locally.
+    ['http.proxyHost','http.proxyPort','https.proxyHost','https.proxyPort'].each { key ->
+        if (System.getProperty(key) != null) systemProperty key, System.getProperty(key)
+    }
+}
+dependencies {
+    implementation 'androidx.exifinterface:exifinterface:1.4.2'
+    implementation 'androidx.annotation:annotation:1.9.1'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.robolectric:robolectric:4.14.1'
+}

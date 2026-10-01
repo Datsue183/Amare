@@ -1,0 +1,11 @@
+<resources>
+    <style name="AmareBase" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#684832</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#FAF7F2</item>
+        <item name="android:navigationBarColor">#684832</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="AmareTheme" parent="AmareBase"/>
+</resources>

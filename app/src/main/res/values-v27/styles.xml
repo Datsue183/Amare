@@ -1,0 +1,6 @@
+<resources>
+    <style name="AmareTheme" parent="AmareBase">
+        <item name="android:navigationBarColor">#FAF7F2</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

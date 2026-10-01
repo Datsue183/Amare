@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hn.amare.admin.MainActivityTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-01T00:45:31" hostname="3cd589477424" time="3.794">
+  <properties/>
+  <testcase name="launchesAndAllTabsOpen[26]" classname="hn.amare.admin.MainActivityTest" time="1.275"/>
+  <testcase name="launchesAndAllTabsOpen" classname="hn.amare.admin.MainActivityTest" time="1.695"/>
+  <testcase name="productDialogOpens[26]" classname="hn.amare.admin.MainActivityTest" time="0.336"/>
+  <testcase name="productDialogOpens" classname="hn.amare.admin.MainActivityTest" time="0.488"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

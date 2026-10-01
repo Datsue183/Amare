@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Amare Android Beta, O=Amare Joyeria, C=HN
+Signer #1 certificate SHA-256 digest: c4b3ea06b74e3504c4826486606df8d2a9d178a945d351973423ae0b5c8ba0c3
+Signer #1 certificate SHA-1 digest: 22c00d22c72914290639e3ce79374cbb6eb51056
+Signer #1 certificate MD5 digest: 6b14f8b93297100d7c33629e881179cc
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: 8cfca93bae7591b6609fedc5b1299901d811f791529524f75fe9e6ed015ca0a9
+Signer #1 public key SHA-1 digest: ecb44b6f3357adbe363bf8dbe0d22eef87ed01a2
+Signer #1 public key MD5 digest: de03dd197fe51bf265afd0f9d66e32a2

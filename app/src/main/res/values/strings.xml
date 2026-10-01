@@ -1,0 +1,10 @@
+<resources>
+    <string name="saving">Guardando…</string>
+    <string name="show_archived">Mostrar productos archivados</string>
+    <string name="preorder">Por encargo (sin reservar bodega)</string>
+    <string name="cart_total">Total: %1$s</string>
+    <plurals name="available_pieces">
+        <item quantity="one">%1$d pieza disponible</item>
+        <item quantity="other">%1$d piezas disponibles</item>
+    </plurals>
+</resources>
